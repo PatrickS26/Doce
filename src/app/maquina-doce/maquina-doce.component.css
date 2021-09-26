@@ -1,0 +1,190 @@
+#tentandotela{
+  height: 5rem;
+  background-color: darkgoldenrod;
+}
+
+#containerpai
+{
+
+  padding-top: 1px;
+  width:25%;
+  margin-top:10%;
+  height: 36rem;
+  border-radius: 5%;
+  background-color: cornflowerblue;
+  padding-bottom: 40%;
+
+
+
+}
+#botao{
+  margin:2%;
+  border-radius: 30%;
+  margin-left: 10%;
+    width:100%;
+  font-size: 50%;
+
+}
+#corpo1{
+  height: 25rem;
+
+
+
+
+}
+#corpo2{
+  padding-top: 2%;
+  margin-top:10%;
+  background-color: rgb(212, 236, 236);
+  border-radius: 6%;
+  height: 11rem;
+  margin-right: auto;
+  border-radius: 5%;
+}
+
+#tituloCard{
+
+  background-color: darkcyan;
+}
+
+#cedulas{
+  margin-bottom: auto;
+  margin-top: auto;
+
+  border-color: blue;
+  background-color: azure;
+}
+#cedulas2{
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 2%;
+  background-color: azure;
+
+
+}
+#cedulas3{
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 3%;
+
+  border-color: blue;
+  background-color:azure;
+}
+#corpoCard{
+  background-color: black;
+  width: 160%;
+
+}
+#linhaNotas{
+
+  margin-top: 50px;
+  height: 10rem;
+
+  padding: 2%;
+  margin-left:0%;
+  margin-bottom: 10%;
+  border-radius: 5%;
+  background-color: rgb(181, 154, 214);
+
+
+
+}
+#notas{
+  margin-top: 3%;
+  border-radius: 5%;
+}
+#containerfilho{
+  padding-top: 0px;
+  border-radius: 5%;
+}
+#linha1{
+  padding-top: 0%;
+}
+#imgmm{
+  left: 20%;
+}
+
+#botaoprotopo{
+  padding-top: 30rem;
+}
+
+#imagem3{
+  margin-top: 60%;
+  width:140%;
+}
+#imagem2{
+  margin-top: 10%;
+  width:100%;
+}
+#imagem1{
+  margin-top: 10%;
+  width:100%;
+}
+#dinheiro1{
+  width:100%;
+}
+#dinheiro2{
+  width:100%;
+
+}
+#moeda{
+
+  margin-bottom: 5%;
+  width:70%;
+
+}
+#numeroTexto{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+}
+#SAIDA{
+  margin-left:0%;
+
+  width:100%;
+  left: auto;
+  right: auto;
+
+
+}
+#letra{
+  font-style:italic;
+  margin-top: 10%;
+  padding-right: 40%;
+  color:black;
+  font-size: 100px;
+}
+#lobo{
+  margin-right:10%;
+  margin-left: 10%;
+
+  width: 100%;
+
+}
+#lobo1{
+  margin-right:12%;
+
+  width: 100%;
+  margin-bottom: 10%;
+}
+#textfont{
+  font-style:italic;
+  margin-top: 10%;
+  padding-right: 40%;
+  color:black;
+
+
+
+}
+#titulhu{
+  margin-top:1% ;
+  border-radius: 100%;
+
+}
+#titulhu2{
+  margin-top:4% ;
+  border-radius: 40%;
+
+
+}
+
