@@ -18,16 +18,21 @@
 </head>
 
 
-<div id="tentandotela" class="jumbotron jumbotron-fluid ">
-  <div class="container">
-    <h1 class="display-4 ">Case 1 maquina de doce</h1>
 
-
-
-  </div>
-</div>
-
-<div id="containerpai" class="container border border-2 border-dark ">
+<div id="bgm" class="container-fluid  ">
+  <div class="row" >
+    <div class="  col-3 " *ngIf="tes">
+      <div id="contx" class="container bg-primary ">
+        <h1>COMPRA REALIZADA!</h1>
+        <img id="prodim" src="{{prod}}" alt="produto">
+        <h2>Seu troco é: {{trco | currency:'BRL':true}}</h2>
+      </div>
+      
+    </div>
+  
+  
+<div id="containerpai" class="container border border-2 border-dark " >
+  
   <div id="titulhu2"class="row border border-dark border-3 bg-danger">
     <div class="col-md-4   ">
 
@@ -45,72 +50,87 @@
   </div>
 
     <div id="corpo2" class="container border border-3 border-dark col-md-10 ">
-      <div id="linha1" class="row ">
+      <div id="linha1" class="row " >
 
-        <div class="col-md-4">
+        <div class="col-md-4" >
           <!--Imagem do Mm-->
-          <img id="imagem1" src="../../../../assets/canela.png" class="rounded mx-auto d-block" alt="emiemi">
+          <img id="imagem1" src="../../../../assets/canela.png" class="rounded mx-auto d-block" alt="emiemi" *ngIf="curentChicle>0" >
+
+          <div class="col-md-4" *ngIf="curentChicle==0">
+          <p class="text-center">sem estoque</p>
+          </div>
+
           <p class="text-center">R$6,00</p>
           <!--Seleciona o produto escolhido-->
-          <button id="botao" type="button" class="btn btn-secondary btn-sm" disabled>Selecionar Produto</button>
+          <button id="botao" type="button" class="btn btn-secondary btn-sm"
+          (click)="compra(1)" [disabled]="butDis(1)"  data-toggle="modal" data-target="#modal1">Selecionar Produto</button>
         </div>
 
         <div class="col-md-4 ">
-          <img id="imagem2" src="../../../../assets/ememe.png" class="rounded mx-auto d-block" alt="emiemi">
+          <img id="imagem2" src="../../../../assets/ememe.png" class="rounded mx-auto d-block" alt="emiemi" *ngIf="curentMM>0">
+
+          <div class="col-md-4" *ngIf="curentMM==0">
+            <p class="text-center">sem estoque</p>
+            </div>
+
           <p class="text-center">R$7,00</p>
           <!--Seleciona o produto escolhido-->
-          <button id="botao" type="button" class="btn btn-secondary btn-sm" disabled>Selecionar Produto</button>
+          <button id="botao" type="button" class="btn btn-secondary btn-sm" [disabled]="butDis(2)" 
+          (click)="compra(2)" >Selecionar Produto</button>
 
         </div>
 
         <div class="col-md-4">
-          <img id="imagem3" src="../../../../assets/cachoco.png" class="img-fluid mx-auto d-block" alt="emiemi">
+          <img id="imagem3" src="../../../../assets/cachoco.png" class="img-fluid mx-auto d-block" alt="emiemi" *ngIf="curentChoco>0">
+
+          <div class="col-md-4" *ngIf="curentChoco==0">
+            <p class="text-center">sem estoque</p>
+            </div>
+
           <p class="text-center">R$8,00</p>
           <!--Seleciona o produto escolhido-->
-          <button id="botao" type="button" class="btn btn-secondary btn-sm" disabled>Selecionar Produto</button>
+          <button id="botao" type="button" class="btn btn-secondary btn-sm"  
+          (click)="compra(3)" [disabled]="butDis(3)"  >Selecionar Produto</button>
 
+          
         </div>
 
         <div id="linhaNotas" class="row  border border-3 border-dark ">
 
           <div id="cedulas" class="col-md-4 border border-3 border-dark rounded ">
-            <img id="dinheiro1" src="../../../../assets/nota-2.png" class="rounded  " alt="2reais">
+            <img id="dinheiro1" src="../../../../assets/nota-2.png" class="rounded  " alt="2reais" (click)="Cash(2)" >
             <p></p>
-            <img id="dinheiro2" src="../../../../assets/nota-5.png" class="rounded" alt="2reais">
+            <img id="dinheiro2" src="../../../../assets/nota-5.png" class="rounded" alt="2reais" (click)="Cash(3)">
             <p></p>
-            <img id="moeda" src="../../../../assets/um-real.png" class="rounded mx-auto d-block" alt="2reais">
+            <img id="moeda" src="../../../../assets/um-real.png" class="rounded mx-auto d-block" alt="2reais" (click)="Cash(1)">
 
 
           </div>
           <div  id="cedulas2" class="col-md-4 border border-2 border-dark rounded ">
 
             <div class="col-md-12">
-              <a id="numeroTexto"  class="form-control" placeholder="0,00">
-              </a>
+              <p id="numeroTexto" >{{ curentCash | currency:'BRL':true}}</p>
             </div>
 
           </div>
 
           <div id="cedulas3" class="col-md-4 border border-2 border-dark rounded ">
 
-              <p id="letra"class="fs-6">M&M</p>
-              <p id="letra"class="fs-6 ">Chocola</p>
               <p id="letra"class="fs-6">Chiclete</p>
+              <p id="letra"class="fs-6 ">M&M</p>
+              <p id="letra"class="fs-6">Chocola</p>
 
 
 
 
           </div>
 
-        </div>
-
-        <div class="row bg-dark">
-          <div class="col bg-dark">
-
-          </div>
+          <img id="SAIDA"src="../../../../assets/portapemt.png" class="rounded " alt="2reais">
 
         </div>
-        <img id="SAIDA"src="../../../../assets/portapemt.png" class="rounded " alt="2reais">
+
+        
+        
 
       </div>
     </div>
@@ -119,7 +139,20 @@
 
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </html>

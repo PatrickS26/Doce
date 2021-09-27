@@ -6,22 +6,38 @@
 #containerpai
 {
 
-  padding-top: 1px;
-  width:25%;
-  margin-top:10%;
-  height: 36rem;
+  
+  width:27%;
+  height:41rem;
   border-radius: 5%;
   background-color: cornflowerblue;
-  padding-bottom: 40%;
+  padding-bottom: 20%;
 
 
 
 }
+
+#contx{
+  height: 30rem;
+}
+#prodim{
+  margin-top: 10%;
+  width:100%;
+}
+#bgm{
+  padding: 2%;
+  background-image: url(https://i.pinimg.com/564x/6a/72/57/6a72573ec9585f1523ddfec450c0d255.jpg);
+  background-size: 45%;
+  background-position-x: center;
+  height:680px;
+  width: 100%;
+}
+
 #botao{
   margin:2%;
   border-radius: 30%;
   margin-left: 10%;
-    width:100%;
+  width:100%;
   font-size: 50%;
 
 }
@@ -140,7 +156,7 @@
 }
 #SAIDA{
   margin-left:0%;
-
+  margin-top: 10%;
   width:100%;
   left: auto;
   right: auto;
