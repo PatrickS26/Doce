@@ -22,4 +22,6 @@ export class SobreComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
 }

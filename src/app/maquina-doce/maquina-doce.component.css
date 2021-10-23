@@ -8,7 +8,7 @@
 
   
   width:27%;
-  height:41rem;
+  height:38rem;
   border-radius: 5%;
   background-color: cornflowerblue;
   padding-bottom: 20%;
@@ -25,11 +25,11 @@
   width:100%;
 }
 #bgm{
-  padding: 2%;
+  padding: 1%;
   background-image: url(https://i.pinimg.com/564x/6a/72/57/6a72573ec9585f1523ddfec450c0d255.jpg);
-  background-size: 45%;
+  background-size: 41%;
   background-position-x: center;
-  height:680px;
+  height:100%;
   width: 100%;
 }
 
@@ -66,7 +66,7 @@
 #cedulas{
   margin-bottom: auto;
   margin-top: auto;
-
+  padding: 2%;
   border-color: blue;
   background-color: azure;
 }
@@ -85,6 +85,21 @@
 
   border-color: blue;
   background-color:azure;
+}
+#cedulas4{
+  
+  
+  padding-bottom: 15%;
+
+}
+#SAIDA{
+  margin-left:0%;
+  margin-top: 10%;
+  width:100%;
+  left: auto;
+  right: auto;
+
+
 }
 #corpoCard{
   background-color: black;
@@ -154,15 +169,7 @@
   margin-bottom: auto;
   margin-left: 5%;
 }
-#SAIDA{
-  margin-left:0%;
-  margin-top: 10%;
-  width:100%;
-  left: auto;
-  right: auto;
 
-
-}
 #letra{
   font-style:italic;
   margin-top: 10%;

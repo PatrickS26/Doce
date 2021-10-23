@@ -13,6 +13,8 @@ import { MaquinaService } from './Services/maquina.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { ElevadorComponent } from './elevador/elevador.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     HudComponent,
     GrupoComponent,
     SobreComponent,
-    ModalComponent
+    ModalComponent,
+    ElevadorComponent,
+    
   ],
   imports: [
     BrowserModule,

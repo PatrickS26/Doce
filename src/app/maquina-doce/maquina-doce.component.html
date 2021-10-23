@@ -19,21 +19,21 @@
 
 
 
-<div id="bgm" class="container-fluid  ">
+<div id="bgm" class="container-fluid  mt-3">
   <div class="row" >
     <div class="  col-3 " *ngIf="tes">
-      <div id="contx" class="container bg-primary ">
+      <div id="contx" class="container bg-primary border border-3 border-dark rounded m-4">
         <h1>COMPRA REALIZADA!</h1>
         <img id="prodim" src="{{prod}}" alt="produto">
-        <h2>Seu troco é: {{trco | currency:'BRL':true}}</h2>
+        <h2>Seu troco é: {{trco |currency:'BRL':true}}</h2>
       </div>
       
     </div>
   
   
-<div id="containerpai" class="container border border-2 border-dark " >
+<div id="containerpai" class="container border border-3 border-dark mt-4 p-3" >
   
-  <div id="titulhu2"class="row border border-dark border-3 bg-danger">
+  <div id="titulhu2"class="row border border-dark border-3 bg-danger p-2">
     <div class="col-md-4   ">
 
       <img id="lobo1" src="../../../../assets/giphy.gif"  alt="gifin">
@@ -109,7 +109,7 @@
           <div  id="cedulas2" class="col-md-4 border border-2 border-dark rounded ">
 
             <div class="col-md-12">
-              <p id="numeroTexto" >{{ curentCash | currency:'BRL':true}}</p>
+              <p id="numeroTexto" >{{ curentCash| currency:'BRL':true}}</p>
             </div>
 
           </div>
@@ -124,9 +124,12 @@
 
 
           </div>
+          <div id="cedulas4" class="">
+            <img id="SAIDA"src="../../../../assets/portapemt.png" class="rounded " alt="2reais">
 
-          <img id="SAIDA"src="../../../../assets/portapemt.png" class="rounded " alt="2reais">
+          </div>
 
+          
         </div>
 
         
