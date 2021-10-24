@@ -1,3 +1,6 @@
+
+
+
 #tentandotela{
   height: 5rem;
   background-color: darkgoldenrod;
@@ -6,8 +9,8 @@
 #containerpai
 {
 
-  
-  width:27%;
+
+  width:25%;
   height:38rem;
   border-radius: 5%;
   background-color: cornflowerblue;
@@ -25,13 +28,15 @@
   width:100%;
 }
 #bgm{
-  padding: 1%;
-  background-image: url(https://i.pinimg.com/564x/6a/72/57/6a72573ec9585f1523ddfec450c0d255.jpg);
-  background-size: 41%;
-  background-position-x: center;
-  height:100%;
-  width: 100%;
+
+  background-image: url(https://wallpapercave.com/wp/wp6630129.gif);
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position:center bottom;
+  bottom: 0%;
 }
+
 
 #botao{
   margin:2%;
@@ -87,8 +92,8 @@
   background-color:azure;
 }
 #cedulas4{
-  
-  
+
+
   padding-bottom: 15%;
 
 }

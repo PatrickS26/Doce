@@ -1,0 +1,98 @@
+
+*{
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+
+}
+.backg{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/48844f5e-0e92-43ad-a76e-8ef56063259a/ddnzvb2-e300f5c4-404c-40e4-9018-2a76c18e45c0.jpg/v1/fill/w_1215,h_658,q_70,strp/hall_background_3d_scene_by_sirengraph_ddnzvb2-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4ODQ0ZjVlLTBlOTItNDNhZC1hNzZlLThlZjU2MDYzMjU5YVwvZGRuenZiMi1lMzAwZjVjNC00MDRjLTQwZTQtOTAxOC0yYTc2YzE4ZTQ1YzAuanBnIiwiaGVpZ2h0IjoiPD02OTMiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80ODg0NGY1ZS0wZTkyLTQzYWQtYTc2ZS04ZWY1NjA2MzI1OWFcL3NpcmVuZ3JhcGgtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.HGEXO7_uMMAzA2UMozSeYFsX073YNSNCSULHOk48128);
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center top;
+  background-position-y: 100px;
+  bottom: 0%;
+  width: 100%;
+
+}
+.backg2{
+  background-image: url(https://images.unsplash.com/photo-1497366216548-37526070297c?ixid=https://images.unsplash.com/photo-1497366216548-37526070297c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-position: center bottom;
+  background-position-y: 100px;
+  bottom: 0%;
+  width: 100%;
+
+
+}
+.backg3{
+  background-image: url(https://i1.wp.com/lebenorindia.com/wp-content/uploads/Background_2.jpg?zoom=2&resize=1200%2C900&ssl=1);
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center top;
+  background-position-y: 100px;
+  bottom: 0%;
+  width: 100%;
+
+}
+.backgT{
+  background-image: url(https://www.parebem.com.br/wp-content/uploads/2019/04/concessao-de-estacionamento.jpg);
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center top;
+  background-position-y: 100px;
+  bottom: 0%;
+  width: 100%;
+
+}
+
+
+#elevador{
+  margin-top:19%;
+  width: 50%;
+  height: auto;
+  top: 100%;
+  margin-left: center;
+
+}
+
+.poco {
+	float: left;
+	margin: 0 55px;
+	position: relative;
+}
+.poco .botao {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	left: -43px;
+  margin-top: 320px;
+  margin-left: 315px;
+}
+.poco .botao.botao4 {
+	top: 90px;
+  font-size: 13px;
+  font-family: fantasy;
+}
+.poco .botao.botao3 {
+	top: 120px;
+  font-size: 13px;
+  font-family: fantasy;
+}
+.poco .botao.botao2 {
+	top: 150px;
+  font-size: 13px;
+  font-family: fantasy;
+}
+.poco .botao.botao1 {
+	top: 180px;
+  font-size: 13px;
+  font-family: fantasy ;
+}
+
