@@ -50,6 +50,28 @@
   width: 100%;
 
 }
+.backgB{
+  background-color: black;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center top;
+  background-position-y: 100px;
+  bottom: 0%;
+  width: 100%;
+}
+
+#Letre{
+  background-color: black;
+  padding: 2%;
+  
+  
+}
+#txtLetre{
+  
+  margin-left: 150px;
+}
+
 
 
 #elevador{
@@ -60,13 +82,21 @@
   margin-left: center;
 
 }
+#portaElevador{
+  margin-top:19%;
+  width: 40%;
+  height: auto;
+  top: 100%;
+  margin-left: center;
 
-.poco {
-	float: left;
+}
+
+#poco {
 	margin: 0 55px;
 	position: relative;
+  display: inline-block;
 }
-.poco .botao {
+#poco .botao {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -75,24 +105,36 @@
   margin-top: 320px;
   margin-left: 315px;
 }
-.poco .botao.botao4 {
+#poco .botao.botao4 {
 	top: 90px;
   font-size: 13px;
   font-family: fantasy;
 }
-.poco .botao.botao3 {
+#poco .botao.botao5 {
+	top: 30px;
+  font-size: 13px;
+  font-family: fantasy;
+}
+#poco .botao.botao3 {
 	top: 120px;
   font-size: 13px;
   font-family: fantasy;
 }
-.poco .botao.botao2 {
+#poco .botao.botao2 {
 	top: 150px;
   font-size: 13px;
   font-family: fantasy;
 }
-.poco .botao.botao1 {
+#poco .botao.botao1 {
 	top: 180px;
   font-size: 13px;
   font-family: fantasy ;
+}
+
+#txtLetre{
+  display:inline-block;
+  padding: 10px;
+  background-color: black;
+
 }
 
